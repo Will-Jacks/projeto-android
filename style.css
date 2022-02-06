@@ -1,0 +1,163 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'droid';
+    src: url(Recursos/fontes/idroid.otf) format('opentype');
+}
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+*
+{
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+}
+:root
+{
+    --cor0: #30D179;
+    --cor1: #1F844C;
+    --background: white;
+}
+body
+{
+    background-color: #DEDBBA;
+    font-family: Arial, Helvetica, sans-serif ;
+
+}
+
+header
+{
+    background-image: linear-gradient(var(--cor0), var(--cor1)) ;
+    text-align: center;
+    padding: 0px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+header > h1
+{
+    font-family: 'Bebas Neue', cursive;  
+}
+header > p
+{
+    font-family: 'Bebas Neue', cursive;
+    max-width: 500px;
+    margin: auto;
+}
+.titulo
+{
+    padding: 10px;
+    color: white;
+    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.692);
+}
+.subtitulo
+{
+    color: white;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+nav
+{
+    font-weight: bold;
+    text-align: initial;
+    border: 10px;
+    padding: 10px;
+
+}
+nav > a:hover
+{
+    background-color: #30D179;
+}
+nav > a
+{
+    padding: 10px;
+    color: white;
+    transition-duration: 0.5s;
+    border-radius: 4px;
+}
+a
+{
+    color: white;
+}
+
+main
+{
+    background-color: var(--background);
+    padding: 20px;
+    margin: auto;
+    margin-bottom: 30px;
+    min-width: 300px;
+    max-width: 700px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.603);
+    border-radius: 0px 0px 10px 10px;
+}
+main img
+{
+    width: 100%;
+}
+main iframe
+{
+    width: 100%;
+}
+main img.pequena
+{
+    max-width: 300px;
+    display: block;
+    margin: auto;
+}
+h1
+{
+    font-family: 'droid';
+    color: var(--cor1);
+}
+
+h2
+{
+    color: #1F844C;
+    font-family: 'droid';
+}
+
+aside
+{
+    background-color: #30d17998;
+    padding: 10px;
+    border-radius: 10px ;
+    list-style-position: inside;
+    
+}
+aside > ul
+{
+    padding: 10px;
+    columns: 2;
+    list-style-type: '\2714\00A0';/*O \00A0 é o nbsp;*/
+}
+
+aside > h3
+{
+    background-color: #1F844C;
+    color: white;
+    padding: 10px;
+    margin: -10px -10px 0px -10px;
+    border-radius: 10px 10px 0px 0px;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.555);
+}
+footer
+{
+    background-color: var(--cor1);
+    padding: 5px;
+}
+footer a 
+{
+    font-weight: bolder;
+}
+strong > a
+{
+    background-color: var(--cor1) ;
+    
+}
+
+p
+{
+    padding: 5px;
+    text-indent: 25px;
+    text-align: justify;
+}
